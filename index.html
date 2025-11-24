@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>SIL MAGNAT-BIRO DOO</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial Black", sans-serif;
+            background-color: #1a1a1a;
+            color: #f2f2f2;
+            font-size: 22px;
+        }
+        header, section {
+            padding: 70px 8%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #333;
+        }
+        h2 {
+            font-size: 38px;
+            color: #e6e6e6;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h1 {
+            font-size: 58px;
+            margin-bottom: 25px;
+            letter-spacing: 2px;
+        }
+        .text-block { width: 55%; }
+        .image-block img {
+            width: 420px;
+            height: auto;
+            border: 4px solid #444;
+            filter: grayscale(40%) contrast(120%);
+        }
+        nav {
+            width: 100%;
+            background: #111;
+            padding: 25px 8%;
+            border-bottom: 2px solid #333;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav a {
+            color: #d9d9d9;
+            margin-right: 35px;
+            text-decoration: none;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        .full-screen {
+            height: 100vh;
+        }
+        .advantages, .services, .process {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 55%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Навигация -->
+<nav>
+    <a href="#hero">Početna</a>
+    <a href="#about">O Nama</a>
+    <a href="#services">Usluge</a>
+    <a href="#advantages">Zašto Mi</a>
+    <a href="#process">Proces</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<!-- 1. Главный экран -->
+<header id="hero">
+    <div class="text-block">
+        <h1>SIL MAGNAT-BIRO DOO</h1>
+        <h2>Vaš partner za napredan menadžerski i IT razvoj</h2>
+        <p>
+            Pomažemo kompanijama da donose jasnije odluke, unaprede interne procese i kreiraju održive strategije rasta.
+            Naša kombinacija iskustva u menadžmentu, poslovnom savetovanju i IT podršci omogućava stabilan razvoj bez rizika i zastoja.
+        </p>
+    </div>
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1497366858526-0766cadbe8fa?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero Image">
+    </div>
+</header>
+
+<!-- 2. Про нас -->
+<section id="about">
+    <div class="text-block">
+        <h2>Ko smo mi zaista?</h2>
+        <p>
+            SIL MAGNAT-BIRO DOO je savetodavna kompanija koja povezuje menadžment ekspertizu i savremenu tehnološku podršku.
+            Naš tim pomaže organizacijama da optimizuju radne procese, izgrade održive modele upravljanja i bolje koriste svoje resurse.
+            Fokusirani smo na realna rešenja, bez nepotrebne teorije – samo konkretne strategije koje donose merljive rezultate.
+            Dugoročno sarađujemo sa firmama koje žele stabilan rast i profesionalno upravljanje poslovnim izazovima.
+            Naš pristup je direktan, precizan i potpuno prilagođen vašoj situaciji.
+        </p>
+    </div>
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="About Us Image">
+    </div>
+</section>
+
+<!-- 3. Сервисы -->
+<section id="services">
+    <div class="text-block">
+        <h2>Šta tačno radimo?</h2>
+        <div class="services">
+            <div>
+                <h3>Menadžerski Konsalting</h3>
+                <p>
+                    Razvijamo jasne strukture upravljanja i unapređujemo organizacione procese.
+                    Fokusiramo se na optimizaciju rada timova, planiranje resursa i efikasno donošenje odluka.
+                    Nudimo vam stabilnu osnovu za rast i dugoročno održivo poslovanje.
+                </p>
+            </div>
+
+            <div>
+                <h3>Biznis Konsalting</h3>
+                <p>
+                    Analiziramo tržište, poslovne modele i finansijske tokove kako bismo kreirali realne strategije razvoja.
+                    Pomažemo u rešavanju problema koji usporavaju vaš napredak.
+                    Naš cilj je da podignemo konkurentnost vaše kompanije.
+                </p>
+            </div>
+
+            <div>
+                <h3>IT Podrška i Tehnološka Rešenja</h3>
+                <p>
+                    Obezbeđujemo tehničku stabilnost i besprekorno funkcionisanje vaših digitalnih sistema.
+                    Implementiramo rešenja koja povećavaju efikasnost i smanjuju rizik od prekida rada.
+                    Tehnologiju pretvaramo u prednost, a ne u problem.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="image-block">
+        <img src="https://media.istockphoto.com/id/2207250357/photo/top-view-of-group-of-businesspeople-sitting-at-boardroom-and-discussing-data-analytic.webp?a=1&b=1&s=612x612&w=0&k=20&c=Oh3Ilve-X_TFADDi_QcPKBFFX-O4EuFhyfzlpYVibfg=" alt="Services Image">
+    </div>
+</section>
+
+<!-- 4. Преимущества -->
+<section id="advantages">
+    <div class="text-block">
+        <h2>Zašto je pametno raditi sa nama?</h2>
+        <div class="advantages">
+            <div>
+                <h3>1. Prilagođena Rešenja</h3>
+                <p>Ne nudimo gotove šablone — svaka preporuka je zasnovana na vašem realnom poslovnom okruženju.</p>
+            </div>
+            <div>
+                <h3>2. Kombinacija Biznisa i IT-a</h3>
+                <p>Retka kombinacija stručnosti omogućava nam da rešavamo probleme koji zahtevaju i menadžerski i tehnološki pristup.</p>
+            </div>
+            <div>
+                <h3>3. Transparentan i Direktan Rad</h3>
+                <p>Bez komplikovanog jezika, bez nepotrebnih troškova — samo jasni koraci i merljivi rezultati.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. Наш процесс -->
+<section id="process">
+    <div class="text-block">
+        <h2>Kako izgleda naša saradnja?</h2>
+        <div class="process">
+            <div>
+                <h3>1. Analiza Stanja</h3>
+                <p>Detaljno sagledavamo vašu organizaciju, procese i izazove kako bismo razumeli stvarne potrebe.</p>
+            </div>
+
+            <div>
+                <h3>2. Izrada Rešenja</h3>
+                <p>Kreiramo konkretne strategije i operativne korake koji donose brze i dugoročne rezultate.</p>
+            </div>
+
+            <div>
+                <h3>3. Implementacija i Praćenje</h3>
+                <p>Pratimo sprovođenje rešenja, optimizujemo procese i obezbeđujemo stabilnu podršku tokom celog perioda.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 6. Контакты -->
+<section id="contact" class="full-screen">
+    <div class="text-block">
+        <h2>Budimo u Kontaktu</h2>
+        <p>
+            Ako želite profesionalnu podršku, jasne strategije i tim koji razume realne izazove — pišite nam.
+            Rado ćemo saslušati vaše potrebe i ponuditi smernice koje mogu odmah da unaprede vaše poslovanje.
+            Očekujemo vaš e-mail i radujemo se saradnji.
+        </p>
+        <p><strong>Email:</strong> team@silmagnat-biro.pro</p>
+        <p><strong>Adresa:</strong> Tomislava Sekulic BB, Gračanica 10510, PAK 970106</p>
+    </div>
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1659353220570-435990a3bd6f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fEJ1c2luZXNzJTIwYW5kJTIwdGVjaCUyMGNvbnN1bHRpbmclMkMlMjBBY2NvdW50aW5nJTJDJTIwVGF4JTIwUHJlcGFyYXRpb258ZW58MHx8MHx8fDA%3D" alt="Contact Image">
+    </div>
+</section>
+
+</body>
+</html>
